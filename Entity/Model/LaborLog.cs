@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Model
 {
-  public class LaborLog    //çalışma logu
+  public class LaborLog:BaseModel   //çalışma logu
     {
         public DateTime StartShift { get; set; } = DateTime.Now; //insert ettiğim an girmişimdir
         public DateTime? EndShift { get; set; }

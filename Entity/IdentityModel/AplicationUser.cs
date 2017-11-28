@@ -23,7 +23,9 @@ namespace Entity.IdentityModel
 
         public decimal Salary { get; set; }
 
-        public int DepartmentId { get; set; }
+        public int? DepartmentId { get; set; }
+
+        public string ActivationCode { get; set; }   //mail göndermek için
 
         [ForeignKey("DepartmentId")]
         public virtual Department Department { get; set; }

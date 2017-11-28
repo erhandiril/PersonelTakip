@@ -74,6 +74,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\201711281205142_a3.cs" />
+    <Compile Include="Migrations\201711281205142_a3.Designer.cs">
+      <DependentUpon>201711281205142_a3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711281234326_a4.cs" />
+    <Compile Include="Migrations\201711281234326_a4.Designer.cs">
+      <DependentUpon>201711281234326_a4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711281236403_a6.cs" />
+    <Compile Include="Migrations\201711281236403_a6.Designer.cs">
+      <DependentUpon>201711281236403_a6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711281422492_a7.cs" />
+    <Compile Include="Migrations\201711281422492_a7.Designer.cs">
+      <DependentUpon>201711281422492_a7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -86,6 +103,20 @@
       <Project>{2af2f84c-58fb-4c49-8d54-3a169113fef3}</Project>
       <Name>PT.Entity</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201711281205142_a3.resx">
+      <DependentUpon>201711281205142_a3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711281234326_a4.resx">
+      <DependentUpon>201711281234326_a4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711281236403_a6.resx">
+      <DependentUpon>201711281236403_a6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711281422492_a7.resx">
+      <DependentUpon>201711281422492_a7.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
