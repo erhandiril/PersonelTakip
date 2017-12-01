@@ -16,7 +16,7 @@ namespace PT.WEB.MVC.App_Start
 
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
-                AuthenticationType = "ApplicationCookie",
+                AuthenticationType = "ApplicationCookie",   //
                 LoginPath = new PathString("/Account/Login") ///eğer bunu yapmazsak hata sayfası çıkar site çalışmaz
             });
         }
